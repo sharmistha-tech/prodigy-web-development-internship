@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #0066ff, #00ccff);
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-item {
+    margin: 0 20px;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .menu-item a:hover {
+    color: #ffcc00;
+  }
+  
+  .content {
+    padding-top: 80px; /* Adjust this if the navbar height changes */
+  }
+  
+  section {
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Different sections for visual effect */
+  #home {
+    background-color: #f0f0f0;
+  }
+  
+  #about {
+    background-color: #dcdcdc;
+  }
+  
+  #services {
+    background-color: #b0b0b0;
+  }
+  
+  #contact {
+    background-color: #909090;
+  }
+  
